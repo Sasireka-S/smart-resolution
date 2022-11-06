@@ -56,7 +56,6 @@ def st_ui():
     '''
     st.title("Image Super Resolution")
     st.caption("Image Quality Enhancement")
-    st.info("Single Image Super Resolution (SISR) Implementation by Oghli")
     container_hints = st.empty()
     with container_hints.container():
         st.markdown("* The model expects inputs with a width of 480, height of 270")
