@@ -54,13 +54,12 @@ def st_ui():
     '''
     Render the User Interface of the application endpoints
     '''
-    st.title("Image Super Resolution")
+    st.title("Welcome to Space Smart Resolution")
     st.caption("Image Quality Enhancement")
     container_hints = st.empty()
     with container_hints.container():
         st.markdown("* The model expects inputs with a width of 480, height of 270")
         st.markdown("* The model returns images with a width of 1920, height of 1080")
-        st.markdown("* It enhances the resolution of the input image by a factor of 4")
 
     st.sidebar.subheader("Upload image to enhance its quality")
     uploaded_image = st.sidebar.file_uploader("Upload image", type=["png", "jpg"],
