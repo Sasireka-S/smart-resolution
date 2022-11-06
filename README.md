@@ -1,4 +1,4 @@
-# smart-resolution
+# Smart Resolution
 Smart resolution performs enhancement of image quality using deep learning.
 
 The model expects inputs with a width of 480, height of 270.
