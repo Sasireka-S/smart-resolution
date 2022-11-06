@@ -54,7 +54,7 @@ def st_ui():
     '''
     Render the User Interface of the application endpoints
     '''
-    st.title("Welcome to Space Smart Resolution")
+    st.title("Space Smart Resolution")
     st.caption("Image Quality Enhancement")
     container_hints = st.empty()
     with container_hints.container():
