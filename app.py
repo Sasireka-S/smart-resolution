@@ -54,8 +54,8 @@ def st_ui():
     '''
     Render the User Interface of the application endpoints
     '''
-    st.title("Space Smart Resolution")
-    st.caption("Image Quality Enhancement")
+    st.title("Smart Resolution")
+    st.caption("Image Quality Enhancement Tool")
     container_hints = st.empty()
     with container_hints.container():
         st.markdown("* The model expects inputs with a width of 480, height of 270")
